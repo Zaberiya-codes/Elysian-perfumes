@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ÉLYSIAN Perfumes — Crafted to Leave a Lasting Impression</title>
+  <meta name="description" content="ÉLYSIAN is a contemporary maison of rare perfumery. Discover signature fragrances, limited editions, and the artistry behind each bottle." />
+  <meta property="og:title" content="ÉLYSIAN Perfumes" />
+  <meta property="og:description" content="Rare fragrances crafted to leave a lasting impression." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="#top" class="brand">ÉLYSIAN</a>
+    <nav class="nav-links">
+      <a href="#collection">Collection</a>
+      <a href="#story">Story</a>
+      <a href="#notes">Notes</a>
+      <a href="#gallery">Journal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn bag" aria-label="Bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      </button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">
+        <svg class="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg class="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#collection">Collection</a>
+    <a href="#story">Story</a>
+    <a href="#notes">Notes</a>
+    <a href="#gallery">Journal</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <img src="assets/hero-bottle.jpg" alt="ÉLYSIAN signature perfume bottle" class="hero-img" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow fade-in">Maison de Parfum · Contemporary Luxury</p>
+    <h1 class="hero-title reveal-hero">
+      Crafted to Leave a<br /><em class="gold-text">Lasting Impression</em>
+    </h1>
+    <p class="hero-sub reveal-hero delay-1">
+      Rare essences, harvested by hand and composed with care. Every bottle a private ritual.
+    </p>
+    <div class="hero-cta reveal-hero delay-2">
+      <a href="#collection" class="btn btn-gold">Shop Collection <span class="arrow">→</span></a>
+      <a href="#story" class="btn btn-ghost">Our Story</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">Scroll</div>
+</section>
+
+<!-- OUR STORY -->
+<section id="story" class="section">
+  <div class="container story-grid">
+    <div class="reveal story-text">
+      <p class="eyebrow">Our Story</p>
+      <h2>A modern house of <em class="gold-text">rare perfumery</em>.</h2>
+      <div class="prose">
+        <p>Élysian is a contemporary luxury fragrance house dedicated to creating unforgettable
+          scents. Every fragrance is carefully crafted using premium ingredients, blending
+          modern sophistication with timeless elegance to create lasting impressions.</p>
+        <p>Each composition is a work of artisanal craftsmanship, composed from ingredients we
+          source ourselves — Bulgarian rose, oud from Assam, vanilla from Madagascar, jasmine
+          from Grasse. Rarity is not a claim. It is the beginning.</p>
+      </div>
+      <div class="stats">
+        <div><p class="stat-num gold-text">∞</p><p class="stat-lbl">Timeless Craft</p></div>
+        <div><p class="stat-num gold-text">47</p><p class="stat-lbl">Rare Essences</p></div>
+        <div><p class="stat-num gold-text">18mo</p><p class="stat-lbl">Per Composition</p></div>
+      </div>
+    </div>
+    <div class="reveal story-img-wrap">
+      <div class="glow"></div>
+      <img src="assets/story.jpg" alt="Luxury perfume bottles on marble" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- COLLECTION -->
+<section id="collection" class="section section-dark">
+  <div class="container">
+    <div class="reveal center-head">
+      <p class="eyebrow">Signature Fragrances</p>
+      <h2>The <em class="gold-text">Maison</em> Collection</h2>
+      <p class="muted">Four compositions that define ÉLYSIAN. Each a chapter, each an obsession.</p>
+    </div>
+    <div class="grid grid-4" id="signature-grid"></div>
+  </div>
+</section>
+
+<!-- NOTES -->
+<section id="notes" class="section">
+  <div class="container">
+    <div class="reveal notes-head">
+      <div>
+        <p class="eyebrow">Fragrance Notes</p>
+        <h2>The <em class="gold-text">olfactory</em> palette</h2>
+      </div>
+      <p class="muted notes-head-copy">Seven families form the vocabulary of our perfumery — each with its own memory, temperament, and season.</p>
+    </div>
+    <div class="grid grid-notes" id="notes-grid"></div>
+  </div>
+</section>
+
+<!-- BEST SELLERS -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="reveal row-head">
+      <div>
+        <p class="eyebrow">Best Sellers</p>
+        <h2>The <em class="gold-text">most-loved</em></h2>
+      </div>
+      <a href="#" class="link-gold">View All <span class="arrow">→</span></a>
+    </div>
+    <div class="grid grid-3" id="best-grid"></div>
+  </div>
+</section>
+
+<!-- LIMITED EDITION -->
+<section class="section">
+  <div class="container limited-grid">
+    <div class="reveal limited-img-wrap">
+      <div class="glow"></div>
+      <img src="assets/limited-edition.jpg" alt="Éclat Royal Limited Edition" loading="lazy" />
+    </div>
+    <div class="reveal">
+      <p class="eyebrow">Limited Edition · 50 Numbered Pieces</p>
+      <h2>Éclat <em class="gold-text">Royal</em></h2>
+      <p class="prose">A single, unrepeatable composition presented in hand-engraved black crystal with
+        24-karat gold ornamentation. Each flacon numbered and signed by our master perfumer.</p>
+      <ul class="spec-list">
+        <li><span>Composition</span><span>Bulgarian rose, oud, ambergris</span></li>
+        <li><span>Concentration</span><span>Extrait de Parfum · 30%</span></li>
+        <li><span>Presentation</span><span>Hand-blown crystal · gold filigree</span></li>
+        <li><span>Edition</span><span>50 numbered pieces worldwide</span></li>
+      </ul>
+      <div class="limited-cta">
+        <p class="price-lg">€ 2,400</p>
+        <a href="#" class="btn btn-gold">Reserve Yours <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="reveal center-head">
+      <p class="eyebrow">Customer Reviews</p>
+      <h2>Whispered <em class="gold-text">between admirers</em></h2>
+    </div>
+    <div class="grid grid-3" id="reviews-grid"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <div class="container">
+    <div class="reveal center-head">
+      <p class="eyebrow">Brand Gallery</p>
+      <h2>Moments of <em class="gold-text">ÉLYSIAN</em></h2>
+    </div>
+    <div class="grid grid-4 gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section newsletter">
+  <div class="newsletter-glow"></div>
+  <div class="reveal newsletter-inner">
+    <p class="eyebrow">Le Cercle Privé</p>
+    <h2>Enter our <em class="gold-text">private circle</em></h2>
+    <p class="muted">Private previews, limited allocations, and invitations to our private salon.</p>
+    <form class="newsletter-form" onsubmit="event.preventDefault();this.reset();alert('Merci — welcome to Le Cercle Privé.');">
+      <input type="email" required placeholder="Your email address" />
+      <button class="btn btn-gold">Subscribe <span class="arrow">→</span></button>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-dark bordered-top">
+  <div class="container contact-grid reveal">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Visit our <em class="gold-text">Maison</em></h2>
+      <p class="prose">Our flagship atelier offers private consultations by appointment — a one-to-one journey with our perfumers.</p>
+      <div class="contact-rows">
+        <div class="c-row"><span class="c-icon">◈</span><div><p class="c-k">Flagship</p><p class="c-v">ÉLYSIAN Atelier, 100 Luxury Lane</p></div></div>
+        <div class="c-row"><span class="c-icon">☏</span><div><p class="c-k">Concierge</p><p class="c-v">+1 (800) 555-0199</p></div></div>
+        <div class="c-row"><span class="c-icon">✉</span><div><p class="c-k">Private clients</p><p class="c-v">salon@elysian.com</p></div></div>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="event.preventDefault();this.reset();alert('Message sent.');">
+      <div class="two-col">
+        <div class="field"><label>First name</label><input type="text" /></div>
+        <div class="field"><label>Last name</label><input type="text" /></div>
+      </div>
+      <div class="field"><label>Email</label><input type="email" /></div>
+      <div class="field"><label>Subject</label><input type="text" /></div>
+      <div class="field"><label>Message</label><textarea rows="5"></textarea></div>
+      <button class="btn btn-gold">Send Message <span class="arrow">→</span></button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <p class="brand-lg">ÉLYSIAN</p>
+      <p class="muted small">Maison de Parfum. Crafting emotion in crystal for the modern world.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+    <div>
+      <p class="foot-title">Maison</p>
+      <ul><li><a href="#">Our Story</a></li><li><a href="#">Master Perfumer</a></li><li><a href="#">Craft</a></li><li><a href="#">Sustainability</a></li></ul>
+    </div>
+    <div>
+      <p class="foot-title">Client</p>
+      <ul><li><a href="#">Concierge</a></li><li><a href="#">Shipping</a></li><li><a href="#">Returns</a></li><li><a href="#">Privacy</a></li></ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <p>© <span id="yr"></span> ÉLYSIAN. All rights reserved.</p>
+    <p class="upcase">Made with care</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
